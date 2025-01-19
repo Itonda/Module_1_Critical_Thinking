@@ -28,10 +28,12 @@ public class Person {
 
     public static void main(String[] args) {
         Person person = new Person();
-        System.out.println(person.firstName);
-        System.out.println(person.lastName);
-        System.out.println(person.streetAddress);
-        System.out.println(person.city);
-        System.out.println(person.zipCode);
+        System.out.println();
+        System.out.println("Person Details: ");
+        System.out.println("First Name: " + person.firstName);
+        System.out.println("Last Name: " + person.lastName);
+        System.out.println("Address: " + person.streetAddress);
+        System.out.println("City: " + person.city);
+        System.out.println("Zip: " + person.zipCode);
     }
 }
