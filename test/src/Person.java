@@ -28,23 +28,10 @@ public class Person {
 
     public static void main(String[] args) {
         Person person = new Person();
-        System.out.println(person);
+        System.out.println(person.firstName);
+        System.out.println(person.lastName);
+        System.out.println(person.streetAddress);
+        System.out.println(person.city);
+        System.out.println(person.zipCode);
     }
-
-
-
-    @Override
-    public String toString() {
-        return "Person: {" +
-                "First Name: " + firstName + " / " +
-                "Last Name: " + lastName + " / " +
-                "Address: " + streetAddress + " / " +
-                "City: " + city + "}";
-    }
-
-
-
-
-
-
 }
