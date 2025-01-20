@@ -1,1 +1,1 @@
-Person.java in src folder.
+Person.java in test/src folder.
